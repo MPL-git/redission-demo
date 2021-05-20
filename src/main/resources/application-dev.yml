@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+base:
+  url: 127.0.0.1:${server.port}
+  host: http://${base.url}
+
+
+#swagger开关
+swagger:
+  enable: true
